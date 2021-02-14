@@ -1,7 +1,15 @@
-<?php  
+<?php 
 
-class Conexion{
-    public static function conexion(){
-        $conect = new mysqli('localhost','root','','mvc_procect')
-    }
-}
+
+   class Conectar{
+       public static function conexion(){
+           $conexion= new mysqli('localhost','root','','mvc_project');
+           return $conexion;
+       }
+
+
+
+
+   }
+
+     
