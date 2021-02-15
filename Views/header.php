@@ -18,7 +18,7 @@
    
   <ul>
      <li> <a href="#" class="linkis">About</a></li>
-     <li> <a href="#" class="linkis">Courses <span><i class="fas fa-sort-down"></i></span></a>
+     <li> <a href="#" class="linkis">Courses</a> <span class="ms-1 _arrow"><i class="fas fa-sort-down"></i> </span>
          <ul class="d-none">
            <li>hola1</li>
            <li>hola2</li>

@@ -9,15 +9,15 @@
         
     <div class="heroLeft d-flex flex-column align-items-start p-5 text-white">  
       
-         <h2 class="pt-3">Because</h2>
-          <h2 class=""> the best experience,</h2>
-          <h2 class="abajo">is to comunicate.</h2>
+         <h2 class="pt-3">Learn Spanish or</h2>
+          <h2 class=""> English,</h2>
+          <h2 class="abajo">whenever, wherever.</h2>
         
          <!-- <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/hola.png?alt=media&token=0926e411-38dd-4d6b-b8e3-20af1615bd2e" alt="hola"> -->
-         <button class="btn btn-light _boton">Know More</button>
+             <a href="#" class="btn btn-light _boton d-flex justify-content-center align-items-center">Knnow More</a>
      </div>
          <div class="herowrap">
-             <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/x-assuntos-legais-para-conversar-com-amigos-em-qualquer-ocasiao-825x433.jpg?alt=media&token=3d81119d-1707-4d59-8bbf-a0e7f3a44fc7" alt="">
+             <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/learn.jpg?alt=media&token=92f0f028-9848-416e-b7b1-89920a2c153a" alt="">
 
              <div class="overlay"></div>
          </div>
@@ -65,6 +65,28 @@
      </section>
 
      <!-- INFO RAPIDA -->
+          <!-- separador< -->
+          <!-- <div class="_separador">
+             <hr>
+         </div> -->
+
+        <!-- COMPARACION   -->
+    <div class="comparacion">
+        <div class="comparacion_wraper">
+             <div class="cajaswrap"><img src="./img/aburrida.jpg" alt="aburrida"></div>
+             <div class="cajaswrap cajaswrap_p">
+                 <p>Still using that old boring way?</p>
+                
+            </div>
+            <div class="cajaswrap cajaswrap_p flex-column">
+                 <p class="p5">Learn faster with native speakers and have fun while you learn.</p>
+                   <a href="#" class="btn btn-light align-items-center d-flex justify-content-center">Our Courses</a>
+            </div>
+             <div class="cajaswrap"><img src="./img/divertida.jpg" alt="divertida" class="divertida"></div>
+             
+        </div>
+    </div>
+        <!-- COMPARACION   -->
 
    <!-- muestra de autos tabla -->
 

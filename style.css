@@ -49,6 +49,7 @@ nav ul li{
     border-right: 1px solid lightgrey;
     width: 16%;
 }
+
 nav ul li:last-child{
   border: none;
 }
@@ -156,6 +157,58 @@ nav ul li a:hover{
 .info_rapida .info_container .box span img{
   width: 100%;
 }
+
+/* ---------------separador------ */
+
+._separador{
+  margin: 5rem auto;
+  width: 60%;
+}
+
+/* -----------------------COMPARACION--------- */
+.comparacion{
+  width: 100%;
+  margin: 9.37rem 0;
+}
+.comparacion .comparacion_wraper{
+  display: grid;
+  width: 88%;
+  margin: auto;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 60vh 60vh;
+  /* grid-template-rows: 1fr 1fr; */
+}
+.comparacion .comparacion_wraper .cajaswrap img{
+  width: 100%;
+}
+.comparacion .comparacion_wraper .cajaswrap_p{
+  background-color: #003d6a;
+  font-size: 1.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 500;
+  color: white;
+}
+.comparacion .comparacion_wraper .cajaswrap_p a{
+  width: 165px;
+  height: 56px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.comparacion .comparacion_wraper .cajaswrap_p .p5{
+  padding: 1rem 3rem;
+}
+.comparacion .comparacion_wraper .cajaswrap .divertida{
+  height: 100%;
+  object-fit: cover;
+}
+/* estilos del grid de comparacion */
+
+
+
+
 
 
 
