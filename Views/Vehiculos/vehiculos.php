@@ -88,6 +88,37 @@
     </div>
         <!-- COMPARACION   -->
 
+          <!-- tarjetas de cursos  -->
+    <section class="_cardtotal">
+            <h2 class="text-center fs-1 pb-5 mb-5 fw-normal">Our Spanish and English lessons</h2>
+           <div class="_cardwraper">
+              <div class="card shadow" >
+                   <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/image%20(2).jpg?alt=media&token=00596319-6d21-432b-aee1-bd0b84698f51" class="card-img-top" alt="...">
+                   <div class="card-body">
+                      <h5 class="card-title">One on One</h5>
+                          <p class="card-text">Have one on one lesssons in the confort of you home whit the best qualified teachers.</p>     
+                          <a href="#" class="btn btn-primary btn-lg">More info</a>
+                   </div>
+             </div>
+             <div class="card shadow" >
+                   <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/image%20(3).jpg?alt=media&token=3ed64ae8-8a75-4369-83f0-2a52dfd2e458" class="card-img-top" alt="...">
+                   <div class="card-body">
+                      <h5 class="card-title">Reduced group Lesssons</h5>
+                          <p class="card-text">Have one on one lesssons in the confort of you home whit the best qualified teachers.</p>
+                        <a href="#" class="btn btn-primary btn-lg">More info</a>
+                   </div>
+             </div>
+             <div class="card shadow">
+                   <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/image%20(4).jpg?alt=media&token=83c04cbe-1856-4600-86a7-5089e7d7d3ef" class="card-img-top" alt="...">
+                   <div class="card-body">
+                      <h5 class="card-title">English for business</h5>
+                          <p class="card-text">Have one on one lesssons in the confort of you home whit the best qualified teachers.</p>
+                        <a href="#" class="btn btn-primary btn-lg">More info</a>
+                   </div>
+             </div>
+           </div>
+   </section>
+       <!-- tarjetas de cursos  -->
    <!-- muestra de autos tabla -->
 
    <section class="tablaTotal p-5 my-5">

@@ -175,8 +175,8 @@ nav ul li a:hover{
   width: 88%;
   margin: auto;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 60vh 60vh;
-  /* grid-template-rows: 1fr 1fr; */
+  grid-template-rows: 59vh 59vh;
+  /* grid-template-rows: 1fr 1fr;  */
 }
 .comparacion .comparacion_wraper .cajaswrap img{
   width: 100%;
@@ -207,8 +207,27 @@ nav ul li a:hover{
 /* estilos del grid de comparacion */
 
 
-
-
+  /* ----------------------TARJETAS----------- */
+  ._cardtotal{
+    width: 100%;
+  }
+  ._cardtotal ._cardwraper{
+    width: 85%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 70vh;
+    grid-column-gap: 1.1rem;
+  }
+  ._cardtotal ._cardwraper .card .card-body h5{
+     font-size: 1.5rem;
+     margin: .5rem 0;
+  }
+  ._cardtotal ._cardwraper .card .card-body a{
+     position: absolute;
+     bottom: 10%;
+  }
+ 
 
 
 
