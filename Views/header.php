@@ -18,13 +18,16 @@
    
   <ul>
      <li> <a href="#" class="linkis">About</a></li>
-     <li> <a href="#" class="linkis">Courses</a> <span class="ms-1 _arrow"><i class="fas fa-sort-down"></i> </span>
-         <ul class="d-none">
-           <li>hola1</li>
-           <li>hola2</li>
-        </ul>
+     <li id="submenu" class="position-relative"> <a href="#" class="linkis">Courses</a> <span class="ms-1 _arrow ms-1"><i class="fas fa-sort-down"></i> </span>
+        <!-- submenu -->
+        <div class="__submenu">
+            <a href="#">submenu1</a>
+            <a href="#">submenu2</a>
+            <a href="#">submenu3</a>
+        </div>
     </li>
      <li> <a href="#" class="linkis">Pricing</a></li>
      <li> <a href="#" class="linkis">Contact</a></li>
+   
    </ul>
 </nav>

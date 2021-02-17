@@ -20,7 +20,9 @@ if (isset($_GET['c'])) {
 
 } else {
       $controlador = cargarControlador(CONTROLADOR_PPAL);
-    cargarAccion(CONTROLADOR_PPAL, ACCION_PPAL);
+//     cargarAccion(CONTROLADOR_PPAL, ACCION_PPAL);
+    $acctionTMP = ACCION_PPAL;
+    $controlador->$acctionTMP();
 }
 
 
