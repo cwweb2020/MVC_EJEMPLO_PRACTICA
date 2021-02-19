@@ -1,6 +1,7 @@
 <?php 
 
 class VehiculosModel{
+
     private $db;
     private $vehiculos;
 
@@ -22,22 +23,23 @@ class VehiculosModel{
         return $this->vehiculos;
     }
 
-    public function agregar($marca,$modelo,$placa,$year,$color){
-           $queryIn =" INSERT INTO `autos`(`id`, `placa`, `marca`, `modelo`, `year`, `color`) VALUES ($marca,$modelo,$placa,$year,$color)";
+    public function agregar($marca, $modelo, $placa, $year, $color){
           
-          $result = $this->db->query($queryIn);
+           $queryIn ="INSERT INTO autos (`id`, `placa`, `marca`, `modelo`, `year`, `color`) VALUES (null, $placa, $marca, $modelo, $year,$color)";
+          
+            $result = $this->db->query($queryIn);
+            if ($result) {
+                echo "<script> alert('agregado'); </script>" ;
+            }else{
+                echo "<script> alert( 'error' ); </script>" ;
+
+            }
+            
+        
     }
    
 }
 // 
-
-
-
-
-
-
-
-
 
 
 

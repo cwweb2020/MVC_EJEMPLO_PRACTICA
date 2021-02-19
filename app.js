@@ -52,15 +52,32 @@ $(document).ready(function () {
 });
 
 $('#submenu').mouseover(function(){
-    $(".__submenu").fadeIn(350);
+    $(".__submenu").fadeIn(300);
   });
 
   $('#submenu').mouseleave(function(){
     $(".__submenu").fadeOut();
   });
 
+  
+// ------ mostrar seccion cursos 
+$(document).ready(function () {
+    $('#sector').hide();
+});
 
+$('.botonaso').click(function () {  
+    $('#sector').fadeIn();
+    
+   
+});
 
+$('.botoncerrar').click(function () {  
+    $('#sector').fadeOut(200);
+   
+   
+});
+
+// slideUp(300);
 
 
 

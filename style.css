@@ -11,6 +11,9 @@
   --basecolor: #00a0b0;
   --font: 'Courgette', cursive;
 }
+body{
+  background-color: #fcfcfc;
+}
 
 .carou{
     height: 85vh;
@@ -141,7 +144,7 @@ nav ul li a:hover{
 }
 .__submenu a:hover{
      background-color: rgb(124, 182, 184);
-     transition: all 600ms;
+     transition: all 150ms;
      color: white;
 }
 /* -----------------------------INFO RAPIDA-------- */
@@ -250,13 +253,18 @@ nav ul li a:hover{
     grid-template-rows: 73vh;
     grid-column-gap: 1.1rem;
   }
+  ._cardtotal ._cardwraper .sombraTarjeta{
+        box-shadow: 0 .5rem 1rem rgba(0,0,0,.15);
+  }
   ._cardtotal ._cardwraper .card img{
      height: 14.5rem;
      object-fit: cover;
   }
   ._cardtotal ._cardwraper .card .card-body h5{
-     font-size: 1.5rem;
-     margin: .7rem 0;
+    font-size: 1.75rem;
+    margin: .7rem 0;
+    text-align: center;
+    font-weight: 400;
   }
   ._cardtotal ._cardwraper .card .card-body a{
      position: absolute;
@@ -265,11 +273,11 @@ nav ul li a:hover{
  
  /* ----------------------TARJETAS----------- */
 
-
-
-
-
-
+._oculto .botonaso{
+     font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase !important;
+}
 
 
 

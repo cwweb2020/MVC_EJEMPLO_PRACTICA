@@ -2,9 +2,16 @@
 
 class VehiculosController{
 
+
+    public function __construct()
+    {
+        require_once './Models/VehiculosModel.php';
+      
+    }
+
     public function index()
     {
-        require_once 'Models/VehiculosModel.php';
+      
         $vehiculos = new VehiculosModel();
         $data ['titulo'] = 'Vehículos';
         $data ['vehiculos']= $vehiculos->get_vehiculo();
@@ -17,6 +24,23 @@ class VehiculosController{
     {
         $data ['titulo'] = 'Vehículos';
         require_once 'Views/Vehiculos/vehiculos_nuevo.php';
+
+    }
+    public function guarda()
+    {
+        $marca = $_POST['marca'];
+        $modelo = $_POST['modelo'];
+        $placa = $_POST['placa'];
+        $year = $_POST['year'];
+        $color = $_POST['color'];
+
+        echo 'la marca es '.$marca .' y el año es ' .$year;
+
+        $vehiculos = new VehiculosModel();
+        $vehiculos->agregar($marca, $modelo, $placa, $year, $color);
+        
+        $data ['titulo'] = 'Vehículos';
+        $this->index(); 
 
     }
 

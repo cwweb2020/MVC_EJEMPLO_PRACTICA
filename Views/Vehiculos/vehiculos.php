@@ -34,28 +34,28 @@
           
              <div class="box box2">
              <span><img src="./img/certif.png" alt=""></span>
-                <h3>titulo</h3>
+                <h3>Titulo</h3>
                 <p>All our Spanish and English teachers</p>
                 <p>are university trained and have</p>
                 <p>experience teaching both online and offline</p>
             </div>
             <div class="box box3">
             <span><img src="./img/oneone.png" alt=""></span>
-                <h3>titulo</h3>
+                <h3>Titulo</h3>
                 <p>All our Spanish and English teachers</p>
                 <p>are university trained and have</p>
                 <p>experience teaching both online and offline</p>
             </div>
             <div class="box box4">
             <span><img src="./img/star.png" alt=""></span>
-                <h3>titulo</h3>
+                <h3>Titulo</h3>
                 <p>All our Spanish and English teachers</p>
                 <p>are university trained and have</p>
                 <p>experience teaching both online and offline</p>
             </div>
             <div class="box box5">
             <span><img src="./img/world.png" alt=""></span>
-                <h3>titulo</h3>
+                <h3>Titulo</h3>
                 <p>All our Spanish and English teachers</p>
                 <p>are university trained and have</p>
                 <p>experience teaching both online and offline</p>
@@ -92,15 +92,15 @@
     <section class="_cardtotal">
             <h2 class="text-center fs-1 pb-5 mb-5 fw-normal">Our Spanish and English lessons</h2>
            <div class="_cardwraper">
-              <div class="card shadow" >
+              <div class="card sombraTarjeta">
                    <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/image%20(2).jpg?alt=media&token=00596319-6d21-432b-aee1-bd0b84698f51" class="card-img-top" alt="...">
                    <div class="card-body">
-                      <h5 class="card-title">One on One</h5>
+                      <h5 class="card-title"> One on One</h5>
                           <p class="card-text">Have one on one lesssons in the confort of you home whit the best qualified teachers.</p>     
                           <a href="#" class="btn btn-primary btn-lg">More info</a>
                    </div>
              </div>
-             <div class="card shadow" >
+             <div class="card sombraTarjeta" >
                    <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/image%20(3).jpg?alt=media&token=3ed64ae8-8a75-4369-83f0-2a52dfd2e458" class="card-img-top" alt="...">
                    <div class="card-body">
                       <h5 class="card-title">Reduced group Lesssons</h5>
@@ -108,7 +108,7 @@
                         <a href="#" class="btn btn-primary btn-lg">More info</a>
                    </div>
              </div>
-             <div class="card shadow">
+             <div class="card sombraTarjeta">
                    <img src="https://firebasestorage.googleapis.com/v0/b/cereales-ebbb8.appspot.com/o/image%20(4).jpg?alt=media&token=83c04cbe-1856-4600-86a7-5089e7d7d3ef" class="card-img-top" alt="...">
                    <div class="card-body">
                       <h5 class="card-title">English for business</h5>
@@ -119,6 +119,23 @@
            </div>
    </section>
        <!-- tarjetas de cursos  -->
+
+       <!-- SECCION OCULTA -->
+       <div class="mx-auto w-25 mt-5 _oculto">
+         <button class="btn btn-success w-100 px-4 py-3 botonaso">Show Spanish Courses</button>
+       </div>
+         
+         
+      
+ <section id="sector" class="p-5 mt-4 bg-light">
+    <div class="container">
+       <button class="btn btn-danger ms-5 mt-5 px-4 pt-2 botoncerrar">Cerrar</button>
+            <h2 class="text-center">Seccion oculta</h2>
+        <p class="p-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat est ab labore vero, corporis odit exercitationem veniam necessitatibus aliquam magnam culpa earum commodi suscipit cumque, nisi praesentium quam quibusdam ut quasi nesciunt nulla. Delectus, quos sint aliquam et beatae tenetur cum quod nihil magni temporibus aliquid alias repudiandae! Sint nobis dolore molestias vitae mollitia vero sapiente temporibus fugit quasi, voluptas non, commodi inventore autem eos accusantium rem distinctio dolorem dignissimos! Quam voluptas neque recusandae, sequi voluptates dolore veritatis! Aliquid, omnis velit. Quibusdam repellendus quidem architecto sit rerum! Eaque porro voluptate iure placeat laudantium ut aliquam fugit soluta, harum fugiat voluptatibus?</p>
+     </div>
+ </section>
+      <!-- SECCION OCULTA -->
+
    <!-- muestra de autos tabla -->
 
    <section class="tablaTotal p-5 my-5">
@@ -165,15 +182,13 @@
 
 
 
-
-
-
-
+        
 
     <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
   <script src="./librerias/all.min.js"></script>
  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script> 
 <script src="app.js"></script>
+
 </body>
 </html>
